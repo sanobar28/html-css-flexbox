@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box; 
+}
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: row;
+  margin: 0;
+}
+.sideBarLeftItem {
+  background: #D7E8D4;
+  flex: 1;
+}
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  flex: 5;
+}
+.mainContentItem {
+  display: flex;
+  flex-direction: row;
+}
+.mainContentItem > article {
+  flex: 3;
+  min-height: 60vh;
+}
+.mainContentItem > aside {
+  background: beige;
+  flex: 1;
+}
+header, footer {
+  background: yellowgreen;
+  height: 20vh;
+}
+header, footer, article, sidebar, aside {
+  padding: 1em;
+}
+
+
+
+
+
+
+
+
+
+  
